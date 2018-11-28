@@ -15,7 +15,7 @@ class Form extends Component {
 
 
     handleSubmit = e => {
-        e.preventDefault()
+        e.preventDefault() 
         const {onSubmit}=this.props
         let latitude = this.refLat.value
         let longitude= this.refLon.value
